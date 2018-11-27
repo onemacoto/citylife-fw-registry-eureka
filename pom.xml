@@ -4,11 +4,15 @@
   <name>${project.artifactId}</name>
   <description>${project.artifactId} for ${project.groupId}</description>
   <packaging>jar</packaging>
+  <version>${citylife-fw-registry-eureka.version}</version>
   <parent>
     <groupId>com.citylife</groupId>
     <artifactId>citylife-fw-plateform-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  <properties>
+    <citylife-fw-registry-eureka.version>0.0.1-SNAPSHOT</citylife-fw-registry-eureka.version>
+  </properties>
   <dependencies>
 	<dependency>
 		<groupId>org.springframework.cloud</groupId>
